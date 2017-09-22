@@ -1,7 +1,7 @@
 # Irrigation-Timer
 Timer based irrigation controller.
 
-This project is to demonstrate a timer based irrigation system using a Raspberry Pi, Arduino uno / Mega and a proprietary backplane with irrigation controller boards.
+This project is to demonstrate a timer based irrigation system using a Raspberry Pi, Arduino Uno / Mega and a proprietary backplane with irrigation controller boards.
 
 The Raspberry Pi handles the network, user interface and the higher level program functions.
 
@@ -11,7 +11,7 @@ Communications between the Raspberry Pi and Arduino are interrupt driven, elimin
 
 All interrupts are dedicated or not shared.
 
-Real Time Clock will be a DS1307, DS3231 or compatitable model to maintain an accurate system time.
+Real Time Clock will be a DS1307, DS3231 or compatible model to maintain an accurate system time.
 
 Microcontroller temp will be read from internal temperature sensor.
 
