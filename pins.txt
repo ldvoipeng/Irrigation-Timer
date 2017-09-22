@@ -9,16 +9,16 @@
 0 RX
 1 TX
 
-2
-3
-4
-5
-6
-7
-8
-9
+2 _sft_MISO
+3 _sft_MOSI
+4 _sft_SCK
+5 _oe_OE ( output enable of the OE register chip )
+6 _oe_PL ( output enable of the PL register chip )
+7 _cs_PL ( chip select of the PL register chip )
+8 _cs_OE ( chip select of the OE register chip )
 
-10  SS0
+9 _oe_SS ( output enable of the SS register chip )
+10  _cs_SS ( chip select of the SS register chip )
 11  MOSI
 12  MISO
 13  SCK
@@ -34,19 +34,19 @@ A5  SCL
 
 # ATmega2560 ( Arduino Mega2560 )
 
-0
-1
+0 RX
+1 TX
 
-20
-21
+20  SDA
+21  SCL
 
-50
-51
-52
-53
+50  MISO
+51  MOSI
+52  SCK
+53  SS
 
-A0
-A1
-A2
-A3
+A0  Extermal System Interrupt
+A1  Internal System Interrupt
+A2  Remote Temperature Sensor
+A3  Light Intensity Sensor
 
