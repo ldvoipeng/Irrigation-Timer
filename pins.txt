@@ -1,0 +1,52 @@
+#
+# pins.txt
+# 22.9.2017
+# 
+# Describes pin connections and functions
+
+# ATmega328P ( Arduino Uno )
+
+0 RX
+1 TX
+
+2
+3
+4
+5
+6
+7
+8
+9
+
+10  SS0
+11  MOSI
+12  MISO
+13  SCK
+
+A0  External System Interrupt
+A1  Local ( Backplane ) Interrupt
+A2  Remote Temperature Sensor
+A3  Light Intensity Sensor
+
+A4  SDA
+A5  SCL
+
+
+# ATmega2560 ( Arduino Mega2560 )
+
+0
+1
+
+20
+21
+
+50
+51
+52
+53
+
+A0
+A1
+A2
+A3
+
