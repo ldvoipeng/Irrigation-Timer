@@ -1,12 +1,13 @@
-#
+##########
 # pins.txt
 # 22.9.2017
-# 
+#
 # Describes pin connections and functions
+##########
 
-###
+############
 # ATmega328P ( Arduino Uno )
-###
+############
  0 RX UART ( Arduino - RasPi )
  1 TX UART ( Arduino - RasPi )
 
@@ -33,24 +34,24 @@ A4  SDA I2C ( Arduino - RasPi )
 A5  SCL I2C ( Arduino - RasPi )
 
 
-###
+############
 # ATmega2560 ( Arduino Mega2560 )
-###
+############
  0 RX  UART ( Arduino - RasPi )
  1 TX  UART ( Arduino - RasPi )
 
 20  SDA I2C ( Arduino - RasPi )
 21  SCL I2C ( Arduino - RasPi )
 
- 2 _sft_MISO Expansion Board Communication
- 3 _sft_MOSI Expansion Board Communication
- 4 _sft_SCK  Expansion Board Communication
- 5 _oe_OE ( output enable of the OE register chip )
- 6 _oe_PL ( output enable of the PL register chip )
- 7 _cs_PL ( chip select of the PL register chip )
- 8 _cs_OE ( chip select of the OE register chip )
+ X _sft_MISO Expansion Board Communication
+ X _sft_MOSI Expansion Board Communication
+ X _sft_SCK  Expansion Board Communication
+ X _oe_OE ( output enable of the OE register chip )
+ X _oe_PL ( output enable of the PL register chip )
+ X _cs_PL ( chip select of the PL register chip )
+ X _cs_OE ( chip select of the OE register chip )
 
- 9 _oe_SS ( output enable of the SS register chip )
+ X _oe_SS ( output enable of the SS register chip )
 50  MISO  Backplane Communication
 51  MOSI  Backplane Communication
 52  SCK   Backplane Communication
