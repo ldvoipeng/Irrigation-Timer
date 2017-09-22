@@ -4,14 +4,15 @@
 # 
 # Describes pin connections and functions
 
+###
 # ATmega328P ( Arduino Uno )
+###
+ 0 RX UART ( Arduino - RasPi )
+ 1 TX UART ( Arduino - RasPi )
 
- 0 RX
- 1 TX
-
- 2 _sft_MISO
- 3 _sft_MOSI
- 4 _sft_SCK
+ 2 _sft_MISO Expansion Board Communication
+ 3 _sft_MOSI Expansion Board Communication
+ 4 _sft_SCK  Expansion Board Communication
  5 _oe_OE ( output enable of the OE register chip )
  6 _oe_PL ( output enable of the PL register chip )
  7 _cs_PL ( chip select of the PL register chip )
@@ -19,44 +20,55 @@
 
  9 _oe_SS ( output enable of the SS register chip )
 10  _cs_SS ( chip select of the SS register chip )
-11  MOSI
-12  MISO
-13  SCK
+11  MOSI  Backplane Communication
+12  MISO  Backplane Communication
+13  SCK   Backplane Communication
+  
+A0  Remote Temperature Sensor
+A1  Light Intensity Sensor
+A2  External System Interrupt
+A3  Local ( backplane ) Interrupt
 
-A0  External System Interrupt
-A1  Local ( Backplane ) Interrupt
-A2  Remote Temperature Sensor
-A3  Light Intensity Sensor
-
-A4  SDA
-A5  SCL
+A4  SDA I2C ( Arduino - RasPi )
+A5  SCL I2C ( Arduino - RasPi )
 
 
+###
 # ATmega2560 ( Arduino Mega2560 )
+###
+ 0 RX  UART ( Arduino - RasPi )
+ 1 TX  UART ( Arduino - RasPi )
 
- 0 RX
- 1 TX
+20  SDA I2C ( Arduino - RasPi )
+21  SCL I2C ( Arduino - RasPi )
 
-20  SDA
-21  SCL
-
- 2 _sft_MISO
- 3 _sft_MOSI
- 4 _sft_SCK
+ 2 _sft_MISO Expansion Board Communication
+ 3 _sft_MOSI Expansion Board Communication
+ 4 _sft_SCK  Expansion Board Communication
  5 _oe_OE ( output enable of the OE register chip )
  6 _oe_PL ( output enable of the PL register chip )
  7 _cs_PL ( chip select of the PL register chip )
  8 _cs_OE ( chip select of the OE register chip )
 
  9 _oe_SS ( output enable of the SS register chip )
-10  _cs_SS ( chip select of the SS register chip )
-50  MISO
-51  MOSI
-52  SCK
-53  SS
+50  MISO  Backplane Communication
+51  MOSI  Backplane Communication
+52  SCK   Backplane Communication
+53  _cs_SS ( chip select of the SS register chip )
 
-A0  Extermal System Interrupt
-A1  Internal System Interrupt
-A2  Remote Temperature Sensor
-A3  Light Intensity Sensor
-
+A0  Remote Temperature Sensor
+A1  Light Intensity Sensor
+A2  
+A3  
+A4  
+A5  
+A6  
+A7  
+A8  External System Interrupt
+A9  Local ( Backplane Interrupt )
+A10 Exp. Interrupt
+A11 Exp. Interrupt
+A12 Exp. Interrupt
+A13 Exp. Interrupt
+A14 Exp. Interrupt
+A15 Exp. Interrupt
