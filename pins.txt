@@ -6,18 +6,18 @@
 
 # ATmega328P ( Arduino Uno )
 
-0 RX
-1 TX
+ 0 RX
+ 1 TX
 
-2 _sft_MISO
-3 _sft_MOSI
-4 _sft_SCK
-5 _oe_OE ( output enable of the OE register chip )
-6 _oe_PL ( output enable of the PL register chip )
-7 _cs_PL ( chip select of the PL register chip )
-8 _cs_OE ( chip select of the OE register chip )
+ 2 _sft_MISO
+ 3 _sft_MOSI
+ 4 _sft_SCK
+ 5 _oe_OE ( output enable of the OE register chip )
+ 6 _oe_PL ( output enable of the PL register chip )
+ 7 _cs_PL ( chip select of the PL register chip )
+ 8 _cs_OE ( chip select of the OE register chip )
 
-9 _oe_SS ( output enable of the SS register chip )
+ 9 _oe_SS ( output enable of the SS register chip )
 10  _cs_SS ( chip select of the SS register chip )
 11  MOSI
 12  MISO
@@ -34,12 +34,22 @@ A5  SCL
 
 # ATmega2560 ( Arduino Mega2560 )
 
-0 RX
-1 TX
+ 0 RX
+ 1 TX
 
 20  SDA
 21  SCL
 
+ 2 _sft_MISO
+ 3 _sft_MOSI
+ 4 _sft_SCK
+ 5 _oe_OE ( output enable of the OE register chip )
+ 6 _oe_PL ( output enable of the PL register chip )
+ 7 _cs_PL ( chip select of the PL register chip )
+ 8 _cs_OE ( chip select of the OE register chip )
+
+ 9 _oe_SS ( output enable of the SS register chip )
+10  _cs_SS ( chip select of the SS register chip )
 50  MISO
 51  MOSI
 52  SCK
